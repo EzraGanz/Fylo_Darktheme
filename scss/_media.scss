@@ -1,0 +1,180 @@
+@media (min-width: 500px) {
+  #main-nav {
+    h1 {
+      font-size: 5rem;
+      padding: 1.5rem 0 0 1.5rem;
+    }
+
+    ul {
+      padding: 1.5rem 0 0 1.5rem;
+    }
+
+    li {
+      padding-right: 1rem;
+    }
+  }
+
+  #section-a {
+    .a-1 {
+      display: block;
+      width: 60%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .a-2 {
+      background: url(../dist/img/bg-curvy-desktop.svg) no repeat center
+        center/cover;
+      position: relative;
+    }
+
+    .content-text {
+      display: grid;
+      grid-template-rows: 1fr;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      justify-content: center;
+      margin-top: -8rem;
+      z-index: 1;
+      overflow: hidden;
+
+      h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 1rem 5rem;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1.15rem;
+        padding: 1rem 7.5rem;
+      }
+
+      .btn-a {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  #section-b {
+    position: relative;
+    padding-top: 2.5rem;
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+
+      .box {
+        padding: 1rem;
+
+        &:nth-child(2) {
+          margin-top: 2.8rem;
+        }
+      }
+    }
+  }
+
+  #section-c {
+    display: flex;
+
+    h2 {
+      text-align: start;
+      font-size: 1.75rem;
+    }
+
+    .container-c {
+      padding: 1.25rem;
+    }
+
+    .content-c {
+      padding-right: 2.5rem;
+    }
+  }
+
+  #section-d {
+    .testimonials {
+      display: flex;
+    }
+
+    .meta-3 {
+      padding-left: 0.8rem;
+    }
+
+    .meta-1 {
+      border-right: 1.5rem $maincolor solid;
+    }
+  }
+
+  #section-e {
+    .container-e {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1.5rem;
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding: 1rem 2.5rem 2rem 2.5rem;
+      }
+
+      .email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input {
+        width: 55%;
+        height: auto;
+        margin-right: 1rem;
+        margin-left: 2rem;
+      }
+
+      button,
+      .btn-a {
+        width: 30%;
+        padding: 0.75rem 0;
+        margin-right: 2rem;
+        border-radius: 50px;
+      }
+    }
+  }
+
+  footer {
+    .all-content {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-content {
+      justify-content: center;
+    }
+
+    .about-us {
+      margin-left: 6rem;
+      padding: 0 2rem 0 0;
+    }
+
+    .contact-us {
+      margin-left: 6rem;
+      padding: 0 2rem 2rem 0;
+    }
+
+    .social {
+      display: block;
+      margin-left: 6rem;
+      padding: 0 2rem 0 0;
+    }
+  }
+}

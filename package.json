@@ -1,0 +1,14 @@
+{
+  "name": "dark_theme_landing_page_frontendmentor",
+  "version": "1.0.0",
+  "description": "dark landing page ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
